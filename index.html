@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <a name="home"> </a>
+
+    <!-- Web Display Settings -->
+    <style>
+        /* Responsive Design */
+            @media (min-width: 1025px) {/* Desktop styles */}
+            @media (min-width: 768px) and (max-width: 1024px) {/* iPad Pro styles */}
+            @media (max-width: 767px) {/* iPhone XR styles */}
+        /* General Styling */
+            body {  margin: 0;
+                    padding: 0;
+                    font-family: Arial, sans-serif;}
+    </style>
+
+
+</head>
+<body>
+
+    <!-- Upper Bar -->
+    <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 40px; background-color: #f8f9fa; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+        
+        <!-- Web Icon Logo (Upper)-->
+        <div><img src="logo.png" alt="Logo" style="height: 60px;"></div>
+
+        <!-- Upper Bar Elements -->
+        <div style="display: flex; gap: 30px;">
+            
+            <a href="#home" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 16px;">Home</a>
+            <a href="#about" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 16px;">About</a>
+            <a href="#featured" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 16px;">Featured</a>
+            <a href="#arrivals" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 16px;">Arrivals</a>
+            <a href="#reviews" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 16px;">Reviews</a>
+            <a href="#blog" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 16px;">Blog</a>
+        </div>
+
+        <!-- Favo & Search Icons -->
+        <div style="display: flex; gap: 20px;">
+            <!-- Search Icon -->
+            <a href="#" style="text-decoration: none;">
+                <span style="font-size: 20px; color: black; cursor: pointer;">🔍</span>
+            </a>
+            <!-- Favo Icon -->
+            <a href="#" style="text-decoration: none;">
+                <span style="font-size: 20px; color: black; cursor: pointer;">♥</span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- The 1st Part of Page (pic bachground) -->
+    <div style="background: url('bg.png') center/cover no-repeat; padding: 120px 100px 270px 100px; display: flex; align-items: center; justify-content: space-between;">
+        <div style="max-width: 60%;">
+            <h1 style="font-size: 60px; color: black; margin: 0; padding: 0; text-align: left; font-family: sans-serif;">WELCOME TO</h1>
+            <h2 style="font-size: 60px; color: #089da1; margin: 0; padding: 0; text-align: left; margin-top: 5px; font-family: sans-serif;">BOOK STORE</h2>
+            <p style="font-size: 16px; color: black; font-family: sans-serif; margin-top: 40px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias atque <br> laborum non fuga ex deserunt. Exercitationem velit ducimus praesentium, obcaecati hic <br> voluptate id tenetur fuga illum quidem omnis? Rerum?
+            </p> 
+            <!-- Learn More Button -->
+            <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 16px; background-color: #089da1; color: white; border: none; border-radius: 5px; text-align: center; margin-top: 40px; text-decoration: none; font-family: sans-serif;">Learn More</a>
+        </div>
+        <div style="margin-left: 80px;">
+            <img src="table.png" alt="Decorative Image" style="width: 700px; height: 700;">
+        </div>
+    </div>
+
+
+
+
+
+    <!-- The 2nd Part of Page (white background) -->
+<div style="background-color: white;">
+    <div style="display: flex; justify-content: space-between; margin-top: 100px; margin-left: 100px; margin-right: 100px;">
+        <div style="width: 18%; padding: 15px; border: 2px solid #089da1; background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+            <div>
+                <img src="delivery.jpg" alt="Delivery" style="width: 70px; height: 70px;">
+            </div>
+            <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Fast Delivery</h3>
+            <p style="font-size: 14px; font-family: sans-serif; color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div style="width: 18%; padding: 15px; border: 2px solid #089da1; background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+            <div>
+                <img src="services.jpg" alt="Services" style="width: 70px; height: 70px;">
+            </div>
+            <h3 style="font-size: 16px; color: black; font-family: sans-serif;">24 x 7 Services</h3>
+            <p style="font-size: 14px; font-family: sans-serif; color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div style="width: 18%; padding: 15px; border: 2px solid #089da1; background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+            <div>
+                <img src="deal.jpg" alt="Deal" style="width: 70px; height: 70px;">
+            </div>
+            <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Best Deal</h3>
+            <p style="font-size: 14px; font-family: sans-serif; color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div style="width: 18%; padding: 15px; border: 2px solid #089da1; background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+            <div>
+                <img src="privecy.jpg" alt="Secure Payment" style="width: 70px; height: 70px;">
+            </div>
+            <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Secure Payment</h3>
+            <p style="font-size: 14px; font-family: sans-serif; color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <!-- About Us -->
+        <a name="about"> </a>
+        <div style="display: flex; align-items: center; margin-top: 50px; margin-left: 100px;">
+            <img src="about.png" alt="About Image" style="width: 500px; height: 500px; margin-right: 50px;">
+            <div style="margin-left: 100px;">
+                <h1 style="font-size: 60px; color: black; margin: 0; padding: 0; text-align: left; font-family: sans-serif;">About Us</h1>
+                <p style="font-size: 16px; color: black; font-family: sans-serif; margin-top: 40px;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cumque atque dolor <br> corporis architecto. Voluptate expedita molestias maxime officia natus consectetur dolor <br> quisquam illo? Quis illum nostrum perspiciatis laboriosam perferendis? Lorem ipsum dolor <br> sit amet consectetur adipisicing elit. Minus ad eius saepe architecto aperiam laboriosam <br> voluptas nobis voluptates id amet eos repellat corrupti harum consectetur, dolorum dolore <br> blanditiis quam quo.
+                </p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 16px; background-color: #089da1; color: white; border: none; border-radius: 5px; text-align: center; margin-top: 40px; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- ********************* Featured Books ********************* -->
+        <a name="featured"> </a>
+        <div style="text-align: center; margin-top: 100px;">
+            <h1 style="font-size: 60px; color: black; font-family: sans-serif;">Featured Books</h1>
+        </div>
+
+        <!-- Scrolling Bar -->
+        <div style="overflow-x: auto; white-space: nowrap; margin: 50px 100px; padding-bottom: 20px;">
+            <!-- Books : -->
+
+            <!-- Books 1 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_1.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 2 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_2.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 3 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_3.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 4 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_4.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 5 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_5.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 6 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_6.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 7 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_7.png" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 8 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_8.png" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 9 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_9.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 10 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_10.png" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 11 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_11.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 12 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_12.png" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 13 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_13.png" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 14 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_14.png" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div>
+
+            <!-- Books 15 -->
+            <div style="display: inline-block; width: 200px; margin-right: 15px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+                <img src="book_15.png" alt="Book Cover" style="width: 100%; height: 150px;">
+                <!-- Book Name -->
+                <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Featured Books</h3>
+                <!-- Author Name -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">John Deo</p>
+                <!-- Type -->
+                <p style="font-size: 14px; font-family: sans-serif; color: #089da1;">Theiller, Horror, Romance</p>
+                <!-- Price -->
+                <p style="font-size: 14px; font-family: sans-serif; color: black;">$25.50 <span style="text-decoration: line-through; font-size: 12px;">$28.50</span></p>
+                <!-- Learn More Button -->
+                <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+            </div> 
+
+        </div>
+        <br><br><br><br><br>
+
+
+
+
+
+
+
+
+        <!-- ********************* New Arrivals ********************* -->
+<a name="arrivals"> </a>
+<h2 style="font-size: 24px; color: black; font-family: sans-serif; text-align: center; margin-top: 50px;">New Arrivals</h2>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-right: 10px; margin-left: 10px;">
+
+
+    <!-- The 1st Part of Arrivals -->
+
+    <!-- Arrival 1 -->
+<div style="display: inline-block; width: 170px; margin: 10px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+    <img src="arrival_1.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+    <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Book Title</h3>
+    <div style="display: flex; justify-content: center; gap: 2px;">
+        <!-- Rate Stars -->
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+    </div>
+    <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+</div>
+
+     <!-- Arrival 2 -->
+<div style="display: inline-block; width: 170px; margin: 10px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+    <img src="arrival_2.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+    <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Another Book</h3>
+    <div style="display: flex; justify-content: center; gap: 2px;">
+        <!-- Rate Stars -->
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+    </div>
+    <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+</div>
+
+    <!-- Arrival 3 -->
+<div style="display: inline-block; width: 170px; margin: 10px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+    <img src="arrival_3.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+    <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Book Title</h3>
+    <div style="display: flex; justify-content: center; gap: 2px;">
+        <!-- Rate Stars -->
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+    </div>
+    <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+</div>
+
+    <!-- Arrival 4 -->
+<div style="display: inline-block; width: 170px; margin: 10px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+    <img src="arrival_4.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+    <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Book Title</h3>
+    <div style="display: flex; justify-content: center; gap: 2px;">
+        <!-- Rate Stars -->
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+    </div>
+    <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+</div>
+
+    <!-- Arrival 5 -->
+<div style="display: inline-block; width: 170px; margin: 10px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+    <img src="arrival_5.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+    <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Book Title</h3>
+    <div style="display: flex; justify-content: center; gap: 2px;">
+        <!-- Rate Stars -->
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+    </div>
+    <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+</div>
+</div>
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-left: 10px; margin-right: 10px;">
+        <!-- Arrival 6 -->
+        <div style="display: inline-block; width: 170px; margin: 10px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+        <img src="arrival_6.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+        <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Book Title</h3>
+        <div style="display: flex; justify-content: center; gap: 2px;">
+                <!-- Rate Stars -->
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+            </div>
+            <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+        </div>
+
+        <!-- Arrival 7 -->
+        <div style="display: inline-block; width: 170px; margin: 10px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+        <img src="arrival_7.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+        <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Book Title</h3>
+        <div style="display: flex; justify-content: center; gap: 2px;">
+                <!-- Rate Stars -->
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+            </div>
+            <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+        </div>
+        
+        <!-- Arrival 8 -->
+        <div style="display: inline-block; width: 170px; margin: 10px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+        <img src="arrival_8.webp" alt="Book Cover" style="width: 100%; height: 150px;">
+        <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Book Title</h3>
+        <div style="display: flex; justify-content: center; gap: 2px;">
+                <!-- Rate Stars -->
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+            </div>
+            <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+        </div>
+        
+        <!-- Arrival 9 -->
+        <div style="display: inline-block; width: 170px; margin: 10px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+        <img src="arrival_9.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+        <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Book Title</h3>
+        <div style="display: flex; justify-content: center; gap: 2px;">
+                <!-- Rate Stars -->
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+            </div>
+            <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+        </div>
+   
+        <!-- Arrival 10 -->
+            <div style="display: inline-block; width: 170px; margin: 10px; padding: 15px; border: 2px solid #089da1; background-color: white; text-align: center;">
+            <img src="arrival_10.jpg" alt="Book Cover" style="width: 100%; height: 150px;">
+            <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Book Title</h3>
+            <div style="display: flex; justify-content: center; gap: 2px;">
+                    <!-- Rate Stars -->
+                    <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                    <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                    <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                    <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+                    <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+            </div>
+            <a href="#" style="display: inline-block; padding: 10px 20px; font-size: 14px; background-color: white; color: #089da1; border: 2px solid #089da1; border-radius: 5px; text-align: center; text-decoration: none; font-family: sans-serif;">Learn More</a>
+        </div>
+        </div>
+    <br><br><br><br><br>
+
+
+
+
+
+
+    <!-- ********************* Reviews ********************* -->
+<a name="reviews"> </a>
+<div style="text-align: center; margin-left: 10px; margin-right: 10px;">
+    <h2 style="font-size: 24px; color: black; font-family: sans-serif; text-align: center;">Reviews</h2>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-left: 10px; margin-right: 10px;">
+    <!-- Reviewer 1 -->
+    <div style="width: 220px; padding: 20px; border: 2px solid #089da1; background-color: white; position: relative; text-align: left;">
+        <div style="position: absolute; top: 10px; right: 10px; font-size: 40px; color: rgba(0, 0, 0, 0.1);">,,</div>
+        <img src="review_1.png" alt="Reviewer" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; float: left; margin-right: 10px;">
+        <h3 style="font-size: 16px; color: black; font-family: sans-serif;">John Doe</h3>
+        <p style="font-size: 16px; color: black; font-family: sans-serif; margin-top: 40px;">Amazing book! Highly recommend to everyone.</p>
+        <div style="margin-top: 10px;">
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #ccc;">&#9734;</span>
+        </div>
+    </div>
+
+    <!-- Reviewer 2 -->
+    <div style="width: 220px; padding: 20px; border: 2px solid #089da1; background-color: white; position: relative; text-align: left;">
+        <div style="position: absolute; top: 10px; right: 10px; font-size: 40px; color: rgba(0, 0, 0, 0.1);">,,</div>
+        <img src="review_2.png" alt="Reviewer" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; float: left; margin-right: 10px;">
+        <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Jane Smith</h3>
+        <p style="font-size: 16px; color: black; font-family: sans-serif; margin-top: 40px;">This book changed my perspective on life.</p>
+        <div style="margin-top: 10px;">
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        </div>
+    </div>
+
+    <!-- Reviewer 3 -->
+    <div style="width: 220px; padding: 20px; border: 2px solid #089da1; background-color: white; position: relative; text-align: left;">
+        <div style="position: absolute; top: 10px; right: 10px; font-size: 40px; color: rgba(0, 0, 0, 0.1);">,,</div>
+        <img src="review_3.png" alt="Reviewer" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; float: left; margin-right: 10px;">
+        <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Jane Smith</h3>
+        <p style="font-size: 16px; color: black; font-family: sans-serif; margin-top: 40px;">This book changed my perspective on life.</p>
+        <div style="margin-top: 10px;">
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        </div>
+    </div>
+
+    <!-- Reviewer 4 -->
+    <div style="width: 220px; padding: 20px; border: 2px solid #089da1; background-color: white; position: relative; text-align: left;">
+        <div style="position: absolute; top: 10px; right: 10px; font-size: 40px; color: rgba(0, 0, 0, 0.1);">,,</div>
+        <img src="review_4.png" alt="Reviewer" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; float: left; margin-right: 10px;">
+        <h3 style="font-size: 16px; color: black; font-family: sans-serif;">Jane Smith</h3>
+        <p style="font-size: 16px; color: black; font-family: sans-serif; margin-top: 40px;">This book changed my perspective on life.</p>
+        <div style="margin-top: 10px;">
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+            <span style="font-size: 16px; color: #FFD700;">&#9733;</span>
+        </div>
+    </div>
+</div>
+<br><br><br><br>
+
+
+
+
+
+<!-- Banner Image -->
+<img src="banner.jpg" alt="Banner" style="width: 100%; height: auto;">
+
+
+
+
+
+
+
+<!-- Our Blog -->
+<a name="blog"> </a>
+<div style="margin-top: 100px; text-align: center;">
+    <h2 style="font-family: sans-serif; font-size: 32px; color: black; margin-bottom: 50px;">Our Blog</h2>
+    <div style="display: flex; justify-content: space-around; margin-left: 100px; margin-right: 100px;">
+        <!-- First Box -->
+        <div style="width: 30%; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; padding: 15px; box-sizing: border-box;">
+            <img src="blog_1.jpg" alt="Blog Image 1" style="width: 100%; height: 200px; object-fit: cover; display: block; margin-bottom: 10px;">
+            <p style="font-size: 16px; color: black; font-family: sans-serif; margin: 0;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias atque laborum non fuga ex deserunt. Exercitationem velit ducimus praesentium, obcaecati hic voluptate id tenetur fuga illum quidem omnis? Rerum?
+            </p>
+            <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+                <span style="font-size: 20px; color: black;">❤</span>
+                <span style="font-size: 20px; color: black;">📅</span>
+            </div>
+        </div>
+        <!-- Second Box -->
+        <div style="width: 30%; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; padding: 15px; box-sizing: border-box;">
+            <img src="blog_2.jpg" alt="Blog Image 2" style="width: 100%; height: 200px; object-fit: cover; display: block; margin-bottom: 10px;">
+            <p style="font-size: 16px; color: black; font-family: sans-serif; margin: 0;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias atque laborum non fuga ex deserunt. Exercitationem velit ducimus praesentium, obcaecati hic voluptate id tenetur fuga illum quidem omnis? Rerum?
+            </p>
+            <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+                <span style="font-size: 20px; color: black;">❤</span>
+                <span style="font-size: 20px; color: black;">📅</span>
+            </div>
+        </div>
+        <!-- Third Box -->
+        <div style="width: 30%; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; padding: 15px; box-sizing: border-box;">
+            <img src="blog_3.jpg" alt="Blog Image 3" style="width: 100%; height: 200px; object-fit: cover; display: block; margin-bottom: 10px;">
+            <p style="font-size: 16px; color: black; font-family: sans-serif; margin: 0;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias atque laborum non fuga ex deserunt. Exercitationem velit ducimus praesentium, obcaecati hic voluptate id tenetur fuga illum quidem omnis? Rerum?
+            </p>
+            <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+                <span style="font-size: 20px; color: black;">❤</span>
+                <span style="font-size: 20px; color: black;">📅</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer style="background-color: #f4f4f4; padding: 30px 10px; font-family: Arial, sans-serif;">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; max-width: 1200px; margin: auto;">
+  
+      <!-- Logo and Description -->
+      <div style="flex: 1; min-width: 200px;">
+        <img src="logo.png" alt="Site Logo" style="width: 80px; display: block; margin-bottom: 10px;">
+        <p style="color: #555; font-size: 14px; line-height: 1.6;">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ipsa aspernatur ad sequi.
+        </p>
+      </div>
+  
+      <!-- Quick Links -->
+      <div style="flex: 1; min-width: 200px;">
+        <h3 style="color: #000; font-size: 18px; margin-bottom: 10px;">Quick Link</h3>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="#" style="color: #555; text-decoration: none; line-height: 2;">Home</a></li>
+          <li><a href="#" style="color: #555; text-decoration: none; line-height: 2;">About</a></li>
+          <li><a href="#" style="color: #555; text-decoration: none; line-height: 2;">Featured</a></li>
+          <li><a href="#" style="color: #555; text-decoration: none; line-height: 2;">Arrivals</a></li>
+          <li><a href="#" style="color: #555; text-decoration: none; line-height: 2;">Reviews</a></li>
+          <li><a href="#" style="color: #555; text-decoration: none; line-height: 2;">Blog</a></li>
+        </ul>
+      </div>
+  
+      <!-- Contact Info -->
+      <div style="flex: 1; min-width: 200px;">
+        <h3 style="color: #000; font-size: 18px; margin-bottom: 10px;">Contact Info</h3>
+        <p style="color: #555; line-height: 2;">
+          <img src="phone.jpg" alt="Phone" style="width: 16px; vertical-align: middle;"> +972568747040<br>
+          <img src="phone.jpg" alt="Phone" style="width: 16px; vertical-align: middle;"> +972569820124<br>
+          <img src="email.jpg" alt="Email" style="width: 16px; vertical-align: middle;"> ali.shalabe@icloud.com
+        </p>
+      </div>
+  
+      <!-- Follow Us -->
+    <div style="flex: 1; min-width: 200px;">
+        <h3 style="color: #000; font-size: 18px; margin-bottom: 10px;">Follow Us</h3>
+        <a href="https://www.facebook.com/ali.shalabi.13" style="margin-right: 10px;">
+          <img src="Facebook.jpg" alt="Facebook" style="width: 24px;">
+        </a>
+        <a href="https://www.instagram.com/ali.shalabi.13/">
+          <img src="instagram.jpg" alt="Instagram" style="width: 24px;">
+        </a>
+      </div>
+  
+      <!-- Newsletter -->
+      <div style="flex: 1; min-width: 200px;">
+        <h3 style="color: #000; font-size: 18px; margin-bottom: 10px;">Newsletter</h3>
+        <input type="email" placeholder="Your Email Here" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
+        <button style="background-color: #089da1; color: #fff; padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer;">Subscribe</button>
+      </div>
+  
+    </div>
+  </footer>  
+  
+    
+
+</body>
+</html>
